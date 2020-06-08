@@ -1,0 +1,15 @@
+{
+  "name": "Eos",
+  "version": "1.0.0",
+  "description": "eosjs wrapper",
+  "main": "Eos.js",
+  "repository": "https://github.com/piecesnbits/eos.git",
+  "author": "piecesnbits",
+  "license": "mit",
+  "private": true,
+  "dependencies": {
+    "@jafri/eosjs2": "^21.0.0-rc.15",
+    "eosjs-ecc": "^4.0.7",
+    "node-fetch": "^2.6.0"
+  }
+}
