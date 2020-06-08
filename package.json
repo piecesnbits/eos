@@ -1,5 +1,5 @@
 {
-  "name": "Eos",
+  "name": "eos",
   "version": "1.0.0",
   "description": "eosjs wrapper",
   "main": "Eos.js",
