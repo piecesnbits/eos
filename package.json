@@ -1,12 +1,12 @@
 {
-  "name": "eos",
+  "name": "@piecesnbits/eos",
   "version": "1.0.0",
   "description": "eosjs wrapper",
   "main": "Eos.js",
   "repository": "https://github.com/piecesnbits/eos.git",
   "author": "piecesnbits",
   "license": "mit",
-  "private": true,
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "@jafri/eosjs2": "^21.0.0-rc.15",
     "eosjs-ecc": "^4.0.7",
