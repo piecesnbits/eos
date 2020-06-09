@@ -1,6 +1,6 @@
 {
   "name": "@piecesnbits/eos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eosjs wrapper",
   "main": "Eos.js",
   "repository": "https://github.com/piecesnbits/eos.git",
