@@ -7,7 +7,7 @@ const ecc = require('eosjs-ecc'); //https://github.com/EOSIO/eosjs-ecc
 class Eos {
     constructor(nodes=[], private_keys=[]){
         console.log(`Eos initialize`)
-        this.nodes = nodes;
+        this.nodes = Array.isArray(nodes) ? nodes : [nodes];
         this.pks = Array.isArray(private_keys) ? private_keys : [private_keys];
         this.Serialize = Serialize;
         this.RpcError = RpcError;
