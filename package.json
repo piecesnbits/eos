@@ -3,9 +3,12 @@
   "version": "1.0.1",
   "description": "eosjs wrapper",
   "main": "Eos.js",
-  "repository": "https://github.com/piecesnbits/eos.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piecesnbits/eos.git"
+  },
   "author": "piecesnbits",
-  "license": "mit",
+  "license": "MIT",
   "dependencies": {
     "@jafri/eosjs2": "^21.0.0-rc.15",
     "eosjs-ecc": "^4.0.7",
@@ -13,5 +16,14 @@
   },
   "scripts": {
     "test": "echo \"No test specified\""
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/piecesnbits/eos/issues"
+  },
+  "homepage": "https://github.com/piecesnbits/eos#readme",
+  "devDependencies": {},
+  "keywords": [
+    "eosjs",
+    "wrapper"
+  ]
 }
