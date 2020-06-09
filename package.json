@@ -6,10 +6,12 @@
   "repository": "https://github.com/piecesnbits/eos.git",
   "author": "piecesnbits",
   "license": "mit",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "@jafri/eosjs2": "^21.0.0-rc.15",
     "eosjs-ecc": "^4.0.7",
     "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\""
   }
 }
