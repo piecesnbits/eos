@@ -12,7 +12,7 @@
   "dependencies": {
     "@jafri/eosjs2": "^21.0.0-rc.15",
     "eosjs-ecc": "^4.0.7",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^3.1.1"
   },
   "scripts": {
     "test": "echo \"No test specified\""
